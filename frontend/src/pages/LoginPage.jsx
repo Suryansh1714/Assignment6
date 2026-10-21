@@ -40,7 +40,7 @@ function LoginPage({ onLogin }) {
   return (
     <div className="container" style={{ maxWidth: '480px', marginTop: '40px' }}>
       <div className="card">
-        <h2 className="card-title" style={{ justifyContent: 'center', marginBottom: '24px' }}>
+        <h2 className="card-title" style={{ justifyContent: 'center', marginBottom: '24px', color: '#a78bfa' }}>
           Login to Your Account
         </h2>
 
@@ -83,8 +83,8 @@ function LoginPage({ onLogin }) {
           </button>
         </form>
 
-        <p style={{ marginTop: '20px', textAlign: 'center', fontSize: '0.9rem', color: '#64748b' }}>
-          Don't have an account? <Link to="/register" style={{ color: '#0f766e', fontWeight: 600 }}>Register here</Link>
+        <p style={{ marginTop: '20px', textAlign: 'center', fontSize: '0.9rem', color: '#c4b5fd' }}>
+          Don't have an account? <Link to="/register" style={{ color: '#a78bfa', fontWeight: 600 }}>Register here</Link>
         </p>
       </div>
     </div>

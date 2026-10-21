@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #f8fafc;
-  color: #0f172a;
+  background-color: #0f172a;
+  color: #e2e8f0;
   line-height: 1.5;
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 .navbar {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
+  background-color: #1e1b4b;
+  border-bottom: 1px solid #312e81;
   padding: 12px 0;
 }
 
@@ -37,7 +37,7 @@ body {
 .nav-brand {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #0f766e;
+  color: #a78bfa;
   text-decoration: none;
   letter-spacing: -0.02em;
 }
@@ -51,7 +51,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #475569;
+  color: #c4b5fd;
   font-weight: 500;
   font-size: 0.95rem;
   transition: color 0.15s;
@@ -59,7 +59,7 @@ body {
 
 .nav-links a.active,
 .nav-links a:hover {
-  color: #0f766e;
+  color: #a78bfa;
 }
 
 .nav-user {
@@ -70,8 +70,8 @@ body {
 }
 
 .user-badge {
-  background-color: #ccfbf1;
-  color: #0f766e;
+  background-color: #4c1d95;
+  color: #c4b5fd;
   padding: 2px 8px;
   border-radius: 4px;
   font-size: 0.75rem;
@@ -80,8 +80,8 @@ body {
 }
 
 .card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #1e1b4b;
+  border: 1px solid #312e81;
   border-radius: 10px;
   padding: 24px;
   margin-bottom: 20px;
@@ -111,22 +111,25 @@ label {
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 6px;
-  color: #334155;
+  color: #c4b5fd;
 }
 
 .form-control {
   width: 100%;
   padding: 9px 12px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #4c1d95;
   border-radius: 6px;
   font-size: 0.95rem;
   outline: none;
   font-family: inherit;
+  background-color: #0f172a;
+  color: #e2e8f0;
   transition: border-color 0.15s;
 }
 
 .form-control:focus {
-  border-color: #0d9488;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
 }
 
 .btn {
@@ -144,22 +147,22 @@ label {
 }
 
 .btn-primary {
-  background-color: #0d9488;
+  background-color: #7c3aed;
   color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #0f766e;
+  background-color: #6d28d9;
 }
 
 .btn-secondary {
-  background-color: #f1f5f9;
-  color: #334155;
-  border: 1px solid #cbd5e1;
+  background-color: #1e1b4b;
+  color: #c4b5fd;
+  border: 1px solid #4c1d95;
 }
 
 .btn-secondary:hover {
-  background-color: #e2e8f0;
+  background-color: #312e81;
 }
 
 .btn-success {
@@ -218,15 +221,15 @@ label {
 }
 
 .stat-card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #1e1b4b;
+  border: 1px solid #312e81;
   border-radius: 10px;
   padding: 18px;
 }
 
 .stat-label {
   font-size: 0.85rem;
-  color: #64748b;
+  color: #a78bfa;
   font-weight: 500;
 }
 
@@ -234,7 +237,7 @@ label {
   font-size: 1.75rem;
   font-weight: 700;
   margin-top: 4px;
-  color: #0f172a;
+  color: #e2e8f0;
 }
 
 .table-container {
@@ -249,16 +252,17 @@ table {
 }
 
 th {
-  background-color: #f8fafc;
+  background-color: #1e1b4b;
   padding: 10px 12px;
   font-weight: 600;
-  color: #475569;
-  border-bottom: 1px solid #e2e8f0;
+  color: #a78bfa;
+  border-bottom: 1px solid #312e81;
 }
 
 td {
   padding: 12px;
-  border-bottom: 1px solid #f1f5f9;
+  border-bottom: 1px solid #1e1b4b;
+  color: #e2e8f0;
 }
 
 .badge {
@@ -303,15 +307,15 @@ td {
 }
 
 .detail-item {
-  background-color: #f8fafc;
+  background-color: #0f172a;
   padding: 12px;
   border-radius: 6px;
-  border: 1px solid #f1f5f9;
+  border: 1px solid #312e81;
 }
 
 .detail-label {
   font-size: 0.75rem;
-  color: #64748b;
+  color: #a78bfa;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -320,6 +324,7 @@ td {
   font-size: 1rem;
   font-weight: 600;
   margin-top: 4px;
+  color: #e2e8f0;
 }
 
 @media (max-width: 640px) {
